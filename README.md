@@ -3,7 +3,7 @@ Calculator using Flex & Bison, with additional functions,loops and conditions, w
 
 ## Functionality
   * Support of C-style (single-line, multi-line) and Unix-style (single-line) comments
-  * Hexadecimal (ex. `0x9A`), Octal (ex. `0o77`), Binary(ex. `ob1011`) and Decimal(ex. `9581`) number formats
+  * Hexadecimal (ex. `0x9A`), Octal (ex. `0o77`), Binary(ex. `ob1011`) and Decimal(ex. `9581`) numeral systems
   * Floating point numbers and calculations (ex. `49.21`, `0x9A.AA`, `0o57.72`, `0b10.01`)
   * Arithmetic following BODMAS rules
   * Build-in functions (`sin`, `cos`, `mod`, `pow`, `sqrt`, `abs`, `floor`, `ceil`...)
@@ -13,16 +13,16 @@ Calculator using Flex & Bison, with additional functions,loops and conditions, w
   * `if then end`, `if then else end` and `while do end` constructions
 
 ## Example
-Files `test.txt` and `test.calc` consist of example usages of this program.
+Files `test1.calc` and `test2.calc` consist of example usages of this program.
 
 ## Requirements
 ```
-bison==3.3.2
-flex==2.5.4
+bison>=3.3.2
+flex>=2.5.4
 gcc>=8.3.0
 ```
 
-## Compile and run
+## Compile and Run
 ```
 make clean
 make all
