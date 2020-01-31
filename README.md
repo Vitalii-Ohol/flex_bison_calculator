@@ -34,5 +34,5 @@ make all
   * [ ] Rewrite AST structure
   * [ ] Add `while do` loop
   * [ ] Add `and`. `or`, `not` boolean operators
-  * [ ] add *strings* support
+  * [ ] Add *strings* support
 
