@@ -1,0 +1,9 @@
+//while statement
+while(i < 10)do var i = i + 1; print(i); end;
+
+//function
+let loop(start, stop)=while(start < stop)do var start = start + 1; print(start); end; return(0); end;
+loop(10, 15);
+
+//if statement
+if(i == 10) then print(i); else print(0); end;

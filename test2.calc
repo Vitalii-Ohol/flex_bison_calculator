@@ -1,0 +1,34 @@
+//define variable
+var dec_var = 2.25;
+var hex_var  = 0x9A;
+var bin_var = 0b101.01;
+var octa_var = 0o75;
+
+//print variables
+dec_var; hex_var; bin_var; octa_var;
+
+//function to add
+let func(a, b, c)=
+	return(a+b+c);
+end;
+print(func(dec_var, dec_var, dec_var));
+
+//function to multiply
+let func2(a, b, c)=
+	return(a*b*c);
+end;
+prnt(func2(dec_var, dec_var, dec_var));
+
+let func3(a, b) = var a = b+a*a; return(a); end;
+let func1(a) = return(a^2); end;
+
+print(func(1, 1, 3));
+print(func2(1, 1, 3));
+print(func3(1, 2));
+print(func3(2, 1));
+print(func1(3));
+print(func1(4));
+
+
+
+
