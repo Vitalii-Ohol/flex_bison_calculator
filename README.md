@@ -1,5 +1,5 @@
 # Bison&Flex calculator
-Calculator using Flex & Bison, with additional functions,loops and conditions, with ability to create variables and functions.
+Calculator using Flex & Bison, with additional functions,loops, and conditions, with the ability to create variables and functions.
 
 ## Functionality
   * Support of C-style (single-line, multi-line) and Unix-style (single-line) comments
