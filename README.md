@@ -8,8 +8,8 @@ Calculator using Flex & Bison, with additional functions,loops, and conditions, 
   * Arithmetic following BODMAS rules
   * Build-in functions (`sin`, `cos`, `mod`, `pow`, `sqrt`, `abs`, `floor`, `ceil`...)
   * Constant values (`pi()`, `e()`)
-  * Creation (`var a = 10;`) and use (`a+20*a;`) of own variables
-  * Creation (`let add_and_print(a, b)=var a= a+b; print(a); end;`) and use (`add_and_print(10, 20);`) of own functions
+  * Creation (`var a = 10;`) and usage (`a+20*a;`) of own variables
+  * Creation (`let add_and_print(a, b)=var a= a+b; print(a); end;`) and usage (`add_and_print(10, 20);`) of own functions
   * `if then end`, `if then else end` and `while do end` constructions
 
 ## Example
